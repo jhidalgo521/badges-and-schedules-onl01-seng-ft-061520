@@ -4,4 +4,8 @@ require 'pry'
 x = ["david", "robert", "jose"]
 
 def a(x)
-  j = x.each_with_index { |name, index| 
+  j = x.each_with_index { |name, index| name index}
+  j
+end
+
+a(x)
