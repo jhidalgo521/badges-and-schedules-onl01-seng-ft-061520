@@ -1,3 +1,3 @@
 ['hello', 'universe'].each_with_index do |value, index|
-  index
+ puts index
 end
