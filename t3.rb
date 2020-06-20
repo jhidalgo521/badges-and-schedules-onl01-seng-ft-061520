@@ -5,7 +5,7 @@ x = ["david", "robert", "jose"]
 
 def a(x)
   y = x.each_with_index do
-    |n, i| "Hello, #{n}! You'll be assigned to room #{i}!"
+    |n, i| n + i 
   end
   binding.pry
   y
